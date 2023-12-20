@@ -1,1 +1,124 @@
-/* место для вашего кода */
+.header {
+  margin: 92px auto;
+  width: 1052px;
+  height: 105px;
+  display: grid;
+  grid-template-columns: 43% 30% 27%;
+  flex-wrap: nowrap;
+  font-size: 18px;
+}
+
+.header__menu {
+  padding-left: 34px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.header__links-list {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+}
+
+.header__links-list-item {
+  padding-right: 11px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.header__address {
+  display: grid;
+  grid-template-rows: 24px 24px 24px;
+  padding-right: 30px;
+  padding-top: 4px;
+  padding-left: 14px;
+  text-wrap: wrap;
+  line-height: 135%;
+}
+
+ .address {
+  font-style: normal;
+}
+
+.main {
+  padding: 0px 9px 13px 9px;
+}
+
+.cover {
+  position: relative;
+  color: #FFF;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  width: 100%;
+  height: 757px;
+}
+
+.overlay {
+  height: 744px;
+  background-color:rgba(0, 0, 0, .6);
+}
+
+.cover__title {
+  padding: 162px 47px;
+}
+
+.aligned-text {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 3px;
+}
+
+.aligned-text_center {
+  text-align: center;
+  margin: 8px -5px 4px 0px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin-right: -2px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 3px;
+}
+
+.cover__description {
+  font-family: Raleway;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 127.273%;
+  text-align: center;
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {
+
+}
